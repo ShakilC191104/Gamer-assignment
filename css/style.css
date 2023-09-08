@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-container {
+    
+    padding-left: 100px;
+
+    /* padding-right: 50px; */
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1920px;
+
+    height: 130px;
+}
+
+.logo-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    object-fit: cover;
+    width: 50%;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+
+
+}
+
+.logo-container img {
+    margin-right: 20px;
+}
+
+.g-section {
+
+    color: lightsalmon;
+}
+
+.nav-item-container {
+    margin-right: 20px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+
+    
+}
+
+.nav-item-container a {
+    text-decoration: none;
+}
+
+.follow-us {
+    padding: 20px 40px;
+    background-color: lightblue;
+}
+
+/* nav design ends here */
+
+.banner-container {
+
+
+    margin: 50px auto 50px;
+    padding: 100px;
+    padding-left: 100px;
+
+    width: 1920px;
+    min-height: 50px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text {
+
+    width: 50%;
+
+}
+
+.banner-text h1 {
+    height: normal;
+
+    font-size: 50px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sign-in {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+
+
+
+}
+
+.go {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+.banner-image {
+
+    width: 50%;
+
+}
+
+/* banner section design ends here */
+
+/* geames video section stars here */
+.grid-container {
+    display: grid;
+    border: 5px solid red;
+    max-width: 1500px;
+    margin: 50px auto 0;
+    min-height: 400px;
+    display: flex;
+    gap: 40px;
+
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+
+    margin: auto 500px;
+
+}
+
+/* ends here
+ */
+
+/* simple banner satrts here */
+.simple-banner {
+    margin-top: 200px;
+    margin-left: 427px;
+    margin-right: 240px;
+    margin-bottom: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.simple-write {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+
+
+
+}
+
+.play {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.simple-img {
+
+    position: relative;
+
+}
+
+.upper-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -20%;
+    left: -30%;
+
+
+}
+
+/* ends here */
+
+/* types of game start here */
+.types-container {
+    border: 1px solid red;
+    min-height: 400px;
+    margin-bottom: 100px;
+}
+
+.first-row {
+
+
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.typess {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: normal;
+
+    right: 100%;
+    width: 248px;
+    height: 80px;
+
+    border: 1.5px solid blue;
+    border-radius: 25px;
+
+
+}
+
+.second-row {
+    margin-left: 550px;
+    margin-right: 550px;
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ends here */
+
+/* logo container starts here */
+.logo{
+    border: 5px solid red;
+    min-height: 50px;
+    background-color: #0B0223;
+}
+.logo-container {
+    margin-left: 500px;
+
+
+    padding-left: 500px;
+    text-align: center;f
+
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.g {
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.amer{
+    color: white;
+}
+
+.classification{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 500px;
+    padding-right: 500px;
+    color: azure;
+}
+.policy{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 550px;
+    padding-right: 550px;
+}
+.last{
+    color: azure;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 700px;
+    padding-right: 550px;
+}
